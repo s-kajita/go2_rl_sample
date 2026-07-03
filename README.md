@@ -5,7 +5,7 @@ Unitree G2 RL sample  from Genesis/examples/locomotion
 
 ```bash
 cd gsw4
-git clone 
+git clone https://github.com/s-kajita/go2_rl_sample.git
 ```
 
 ### 実行
