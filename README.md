@@ -2,10 +2,10 @@
 Unitree G2 RL sample  from Genesis/examples/locomotion
 
 インストール
-$ cd gsw4
-$ git clone 
+  $ cd gsw4
+  $ git clone 
 
 実行
-$ cd go2_rl_sample
-$ python3 go2_train.py           # ロボット動画を表示しつつ学習
-$ python3 go2_train.py --quiet   # ロボット動画を表示せず高速に学習
+  $ cd go2_rl_sample
+  $ python3 go2_train.py           # ロボット動画を表示しつつ学習
+  $ python3 go2_train.py --quiet   # ロボット動画を表示せず高速に学習
