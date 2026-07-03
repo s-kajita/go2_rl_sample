@@ -216,3 +216,8 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# go2_rl_sample
+logs/
+*.mp4
+backflip/
