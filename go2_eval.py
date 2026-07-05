@@ -16,11 +16,14 @@ import genesis as gs
 
 from go2_env import Go2Env
 
+env = []
 
 def main():
+    global env
+    
     parser = argparse.ArgumentParser()
     parser.add_argument("-e", "--exp_name", type=str, default="go2-walking")
-    parser.add_argument("--ckpt", type=int, default=100)
+    parser.add_argument("-I", "--ckpt", type=int, default=100)
     args = parser.parse_args()
 
     gs.init(backend=gs.cpu)
